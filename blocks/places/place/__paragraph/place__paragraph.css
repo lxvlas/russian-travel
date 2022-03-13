@@ -1,0 +1,11 @@
+.place__paragraph {
+  max-width: 484px;
+  grid-area: paragraph;
+  margin: 0;
+}
+
+@media all and (max-width: 320px) {
+  .place__paragraph {
+    margin: 32px 16px 0;
+  }
+}
