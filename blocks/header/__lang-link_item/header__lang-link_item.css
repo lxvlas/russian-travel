@@ -1,4 +1,4 @@
-.header__lang-link_text {
+.header__lang-link_item {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -8,12 +8,16 @@
   color: #ffffff;
 }
 
-.header__lang-link_text:hover {
+.header__lang-link_item:hover {
   opacity: 0.8;
 }
 
+.current-lang {
+  text-decoration: underline;
+}
+
 @media all and (max-width: 320px) {
-  .header__lang-link_text {
+  .header__lang-link_item {
     font-size: 18px;
     line-height: 1.11;
   }
