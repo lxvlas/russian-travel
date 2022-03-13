@@ -1,4 +1,4 @@
-.cover__foreground_title {
+.cover__title {
   max-width: 560px;
   font-style: normal;
   font-weight: 900;
@@ -10,14 +10,14 @@
 }
 
 @media all and (max-width: 530px) {
-  .cover__foreground_title {
+  .cover__title {
     font-size: 54px;
     line-height: 1.08;
   }
 }
 
 @media all and (max-width: 420px) {
-  .cover__foreground_title {
+  .cover__title {
     font-size: 32px;
     line-height: 1.09;
   }
