@@ -1,7 +1,24 @@
 .header__lang-link {
-  margin-right: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: right;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-.header__lang-link:last-of-type {
-  margin-right: 0;
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+.current-lang {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }
