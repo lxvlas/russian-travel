@@ -10,20 +10,25 @@
 
 @media all and (max-width: 1024px) {
   .place {
-    margin: 92px 48px 0;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
 @media all and (max-width: 768px) {
-  .places {
-    margin: 88px 24px 0;
+  .place {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
     gap: 73px;
   }
 }
 
 @media all and (max-width: 320px) {
   .place {
-    margin: 64px 0 0;
+    margin-top: 64px;
+    margin-left: 0;
+    margin-right: 0;
     gap: 50px;
   }
 }

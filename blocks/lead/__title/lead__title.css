@@ -11,6 +11,7 @@
 
 @media all and (max-width: 720px) {
   .lead__title {
+    max-width: 510px;
     font-size: 72px;
     line-height: 1.06;
   }
@@ -18,6 +19,7 @@
 
 @media all and (max-width: 530px) {
   .lead__title {
+    max-width: 380px;
     font-size: 54px;
     line-height: 1.08;
   }
@@ -25,6 +27,7 @@
 
 @media all and (max-width: 420px) {
   .lead__title {
+    max-width: 288px;
     font-size: 40px;
     line-height: 1.1;
   }

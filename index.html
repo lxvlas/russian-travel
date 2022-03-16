@@ -12,7 +12,7 @@
       <img src="./images/header-logo.svg" alt="Логотип" class="header__logo" />
       <ul class="header__lang-links">
         <li class="header__lang-item">
-          <a href="#" class="header__lang-link current-lang">Ru</a>
+          <a href="#" class="header__lang-link header__current-lang">Ru</a>
         </li>
         <li class="header__lang-item">
           <a href="#" class="header__lang-link">En</a>
@@ -59,94 +59,98 @@
         </ul>
       </section>
 
-      <ul class="photo-grid">
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-train.jpg"
-            alt="Поезд"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-atharva-tulsi.jpg"
-            alt="Гора Уллу-Тау"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-tuman.jpg"
-            alt="Туман"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-sochi.jpg"
-            alt="Сочи"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-arisa.jpg"
-            alt="Замерзший Байкал"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-baikal.jpg"
-            alt="Байкал>"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-elbrus.jpg"
-            alt="Эльбрус"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-kondratiev.jpg"
-            alt="Дорожный знак"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-kamchatka-1.jpg"
-            alt="Камчатка"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-kamchatka-2.jpg"
-            alt="Камчатка"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-baikal-2.jpg"
-            alt="Байкал>"
-          />
-        </li>
-        <li>
-          <img
-            class="photo-grid__item"
-            src="./images/photo-grid-ergaki.jpg"
-            alt="Ергаки"
-          />
-        </li>
-      </ul>
+      <section class="pgoto-gallery">
+        <!-- pgoto-gallery - Пустой класс -->
+        <ul class="photo-grid">
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-train.jpg"
+              alt="Поезд"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-atharva-tulsi.jpg"
+              alt="Гора Уллу-Тау"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-tuman.jpg"
+              alt="Туман"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-sochi.jpg"
+              alt="Сочи"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-arisa.jpg"
+              alt="Замерзший Байкал"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-baikal.jpg"
+              alt="Байкал>"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-elbrus.jpg"
+              alt="Эльбрус"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-kondratiev.jpg"
+              alt="Дорожный знак"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-kamchatka-1.jpg"
+              alt="Камчатка"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-kamchatka-2.jpg"
+              alt="Камчатка"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-baikal-2.jpg"
+              alt="Байкал>"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid-ergaki.jpg"
+              alt="Ергаки"
+            />
+          </li>
+        </ul>
+      </section>
 
       <section class="places">
+        <!-- places - пустой класс -->
         <ul class="place">
           <li class="place__item">
             <h2 class="place__title">Куршская коса</h2>
@@ -311,23 +315,24 @@
       </section>
 
       <section class="cover">
-        <div class="cover__foreground">
-          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие
-            от&nbsp;столицы до&nbsp;Байкала на электричках.
-          </p>
-        </div>
-        <img
-          class="cover__background"
-          src="images/cover-trains.jpg"
-          alt="Поезда"
-        />
         <a
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="_blank"
           class="cover__link"
-        ></a>
+        >
+          <div class="cover__foreground">
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие
+              от&nbsp;столицы до&nbsp;Байкала на электричках.
+            </p>
+          </div>
+          <img
+            class="cover__background"
+            src="images/cover-trains.jpg"
+            alt="Поезда"
+          />
+        </a>
       </section>
 
       <footer class="footer">
