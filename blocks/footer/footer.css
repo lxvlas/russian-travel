@@ -9,7 +9,7 @@
 
 @media all and (max-width: 720px) {
   .footer {
-    margin-top: 64px; 
+    margin-top: 64px;
     margin-left: 16px;
     margin-right: 16px;
     grid-template-rows: repeat(2, max-content);
